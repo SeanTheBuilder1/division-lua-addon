@@ -7,6 +7,6 @@
 ---@param direction Vector3
 ---@param distance number
 ---@return Node?
-function shootRay(origin, direction, distance) end
+function rayCast(origin, direction, distance) end
 
-return shootRay
+return rayCast
