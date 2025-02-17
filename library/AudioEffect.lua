@@ -1,5 +1,7 @@
 ---@meta
 
+---@module "Vector"
+
 ---@class AudioEffect
 AudioEffect = {}
 
@@ -19,6 +21,7 @@ function AudioEffect:continue_play() end
 
 function AudioEffect:stop() end
 
-function AudioEffect:setPosition() end
+---@param position Vector3
+function AudioEffect:setPosition(position) end
 
 return AudioEffect
