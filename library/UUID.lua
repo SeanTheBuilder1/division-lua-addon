@@ -1,11 +1,10 @@
 ---@meta
 
----@class UUID
----@field uuid number
-UUID = {}
+---@alias uuid_t number
+uuid_t = {}
 
----@param uuid string
----@return UUID
-function UUID(uuid) end
+---@param uuid_str string
+---@return uuid_t
+function UUID(uuid_str) end
 
-return UUID
+return uuid_t

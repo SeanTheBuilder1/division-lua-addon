@@ -9,14 +9,14 @@
 
 ---@class Node
 ---@field self_handle NodeHandle
----@field self_uuid UUID
+---@field self_uuid uuid_t
 Node = {}
 
 ---@param handle NodeHandle
 ---@return Node
 function Node:new(handle) end
 
----@param uuid UUID
+---@param uuid uuid_t
 ---@return Node?
 function Node:new(uuid) end
 
