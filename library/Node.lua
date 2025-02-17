@@ -35,6 +35,9 @@ function Node:getTransform() end
 ---@return Script?
 function Node:getScript() end
 
+---@return RigidBody?
+function Node:getRigidBody() end
+
 ---@param src Node
 ---@param dest Node
 function moveNode(src, dest) end
