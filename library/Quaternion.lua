@@ -1,5 +1,7 @@
 ---@meta
 
+---@module "Vector"
+
 ---@class Quaternion
 ---@field w number
 ---@field x number
@@ -13,5 +15,15 @@ Quaternion = {}
 ---@param z number
 ---@return Quaternion
 function Quaternion:new(w, x, y, z) end
+
+---@param origin Vector3
+---@param destination Vector3
+---@return Quaternion
+function rotation(origin, destination) end
+
+---@param rotation Quaternion
+---@param vector Vector3
+---@return Vector3
+function rotate(rotation, vector) end
 
 return Quaternion
