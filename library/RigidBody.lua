@@ -132,3 +132,6 @@ function RigidBody:getAngularFactor() end
 
 ---@return boolean
 function RigidBody:isInWorld() end
+
+---@return Node[]?
+function RigidBody:checkAllTouching() end
