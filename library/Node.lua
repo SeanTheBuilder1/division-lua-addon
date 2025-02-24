@@ -40,10 +40,12 @@ function Node:getRigidBody() end
 
 ---@param src Node
 ---@param dest Node
+---@return Node?
 function moveNode(src, dest) end
 
 ---@param src Node
 ---@param dest Node
+---@return Node?
 function copyNode(src, dest) end
 
 return Node
