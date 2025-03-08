@@ -38,6 +38,15 @@ function Node:getScript() end
 ---@return RigidBody?
 function Node:getRigidBody() end
 
+---@param var_name string
+---@return any?
+function Node:getMetadata(var_name) end
+
+---@param var_name string
+---@param variable any
+---@return bool?
+function Node:setMetadata(var_name, variable) end
+
 ---@param src Node
 ---@param dest Node
 ---@return Node?
